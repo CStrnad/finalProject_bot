@@ -1,7 +1,7 @@
 controller_manager:
   ros__parameters:
     update_rate: 30
-    use_sim_time: true
+    # use_sim_time: true
 
     diff_cont:
       type: diff_drive_controller/DiffDriveController
@@ -19,5 +19,6 @@ diff_cont:
     right_wheel_names: ['right_wheel_joint']
     wheel_separation: 0.2463
     wheel_radius: 0.03365
+    # (67.5mm diameter) 
 
     use_stamped_vel: false
