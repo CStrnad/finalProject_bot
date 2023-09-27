@@ -14,8 +14,9 @@
     -->
                 <param name="baud_rate">57600</param>
                 <param name="timeout">1000</param>
-                <param name="enc_counts_per_rev">494</param>
-                <!-- Was 3436. It is really around 494.5 -->
+                <param name="enc_counts_per_rev">624</param>
+                <!-- Was 3436. It is really around 494.5 WITH 200 RPM motors-->
+                <!-- New count is 624 for 100 RPM Motors -->
             </hardware>
             <joint name="left_wheel_joint">
                 <command_interface name="velocity">
