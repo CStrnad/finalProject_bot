@@ -592,7 +592,7 @@
           <wrench>-0 0 0.008512 0 -0 0</wrench>
         </link>
       </model>
-      <model name='finalProject_bot'>
+      <model name='my_bot'>
         <pose>-0.041617 0.012886 0.014648 -3.8e-05 0.017194 -0.033925</pose>
         <scale>1 1 1</scale>
         <link name='base_link'>
